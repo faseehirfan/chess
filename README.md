@@ -1,6 +1,35 @@
 # chess
 CS247 Spring 2024 Final Project
 
+## To Run
+
+### Instructions to Compile and Run the Chess Program
+
+1. **Navigate to the `src` directory:**
+   First, change to the directory containing your source files and `Makefile`:
+   ```bash
+   cd src
+   ```
+
+2. **Compile the program:**
+   Use the `make` command to compile the source files and generate the executable:
+   ```bash
+   make
+   ```
+
+3. **Run the executable:**
+   Once the compilation is complete, you can run the program by executing the following command:
+   ```bash
+   ./chess
+   ```
+
+4. **Clean up the compiled files (optional):**
+   If you want to remove the compiled executable and object files, use the `make clean` command:
+   ```bash
+   make clean
+   ```
+
+
 ## Commands
 
 - `game white-player black-player` starts a new game. The parameters white-player and black-player
